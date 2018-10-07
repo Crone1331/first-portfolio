@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+body {
+  background-color: #081928;
+}
+.header {
+  color: #f1f1f1;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+}
+.header .top-header {
+  margin-bottom: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .top-header .top-header-element {
+  padding: 0 20px;
+  font-size: 50px;
+}
+.header .header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header-menu .menu-item .menu-item-text {
+  color: #f1f1f1;
+  padding: 0 10px 3px 10px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.header .header-menu .menu-item .menu-item-text:hover {
+  color: #727272;
+  border-bottom: 1px solid #727272;
+}
+.main {
+  display: block;
+  color: #0e2a42;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+.main .info-text {
+  width: 250px;
+  display: inline-block;
+}
+.main .name {
+  display: block;
+  width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 70px;
+  line-height: 40px;
+}
+.main .date {
+  display: flex;
+  width: 820px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main .date .foto {
+  border-radius: 10px;
+}
+.main .date .date-me {
+  line-height: 40px;
+  margin-left: 40px;
+}
+.main .contacts {
+  display: block;
+  width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 70px;
+  line-height: 40px;
+}
+.main .about-me {
+  display: block;
+  width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 70px;
+  line-height: 40px;
+}
+.main .about-me-too {
+  display: block;
+  width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 70px;
+  line-height: 40px;
+  padding-bottom: 70px;
+}
+.footer {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  color: #f1f1f1;
+}
+.footer .tel .telefon {
+  color: #f2b01c;
+  font-size: 20pt;
+}
+.footer .copy {
+  display: flex;
+  align-items: center;
+}
+.footer .copy .copy-text {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.footer .copy .copy-text > a {
+  text-decoration: none;
+  color: #3f96e3;
+  border-bottom: #3f96e3 1px solid;
+}
+.footer .copy .copy-text > a:hover {
+  color: #1862a4;
+  border-bottom: 1px solid #1862a4;
+}
