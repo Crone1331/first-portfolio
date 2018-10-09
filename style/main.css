@@ -5,6 +5,9 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
 }
+h3 {
+  color: #075799;
+}
 body {
   background-color: #081928;
 }
